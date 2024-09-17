@@ -1,17 +1,17 @@
 /////Mi codigo////
 
-function impares(num1,num2){
-    let contador=0;
-
-    for(let i=num1; i<=num2; i++){
-        if (i%2 !== 0){
-            contador++;
+function impares(num1,num2){ //Función con 2 parametros
+    let contador=0; //contador iniciado en 0
+ 
+    for(let i=num1; i<=num2; i++){//bucle para recorrer los numero que se le pasen
+        if (i%2 !== 0){ //Si el residuo es diferente a 0
+            contador++; // aumenta el contador
         }
     }
-    return contador;
+    return contador; // me regresa el contador
 }
 
-console.log("La tantidad de numeros impares es:",impares(1,10))
+console.log("La tantidad de numeros impares es:",impares(1,10)) //se pasan los valores y se imprime
 
 
 
