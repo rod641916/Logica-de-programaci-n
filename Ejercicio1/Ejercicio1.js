@@ -12,7 +12,9 @@ function tablaMutiplicar(numero){
 
 tablaMutiplicar(5);
 
-console.log("**************Funcion de curso************")
+//console.log("**************Funcion de curso************")
+
+module.exports = tablaMutiplicar
 
 ////////////////Resultado de curso////////////////////////
 function tablaMutiplicar1(numero){
@@ -25,4 +27,4 @@ function tablaMutiplicar1(numero){
     return resultado;
 }
 
-console.log(tablaMutiplicar1(5));
+//console.log(tablaMutiplicar1(5));

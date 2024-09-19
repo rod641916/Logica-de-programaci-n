@@ -12,7 +12,8 @@ function polindromo(texto){
     }
 }
 
-console.log(polindromo("Otto"))
+//console.log(polindromo("Otto"))
+module.exports = polindromo;
 
 
 console.log("**********Funcion del curso****************")
@@ -26,4 +27,4 @@ function palindromo1(texto){
     }
 }
 
-console.log("Es un palindromo? - " + palindromo1("Otto"));
+//console.log("Es un palindromo? - " + palindromo1("Otto"));
