@@ -1,3 +1,5 @@
+/////Contrar la cantidad de numeros impares que hay entrer 2 numeros
+
 /////Mi codigo////
 
 function impares(num1,num2){ //Función con 2 parametros
@@ -11,7 +13,7 @@ function impares(num1,num2){ //Función con 2 parametros
     return contador; // me regresa el contador
 }
 
-console.log("La tantidad de numeros impares es:",impares(1,10)) //se pasan los valores y se imprime
+console.log("La cantidad de numeros impares es:",impares(1,10)) //se pasan los valores y se imprime
 
 
 

@@ -1,3 +1,6 @@
+/**Imprimir la tabla de multiplicar de un numero dado*/
+
+
 
 ////////////////////Resultado mio/////////////////
 function tablaMutiplicar(numero){

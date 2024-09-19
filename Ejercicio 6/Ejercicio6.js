@@ -1,6 +1,8 @@
+/*Imprimir un cuadrado con la cantidad dada pero sin imprimir el centro */
+
 /////////////Mi codigo///////////////
 
-/*function cuadrado(cantidad) {
+function cuadrado(cantidad) {
     for (let i = 0; i < cantidad; i++) {
         let linea = ""; // Reiniciamos la línea para cada fila
 
@@ -17,7 +19,7 @@
     }
 }
 
-cuadrado(5);*/
+cuadrado(5);
 
 
 //////////Codigo curso////////////////

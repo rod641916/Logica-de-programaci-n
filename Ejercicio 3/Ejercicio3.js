@@ -1,3 +1,5 @@
+/*Mostar cuantas veces se repite una palabra en una oración */
+
 //////////////////Mi funcion////////////////////
 function coincidencias(frase,busqueda){  ///Va a recibir 2 parametros
     let fraseCompleta = frase.toString().toLowerCase().replace(/[,!?¿]/g, "").split(" "); //
@@ -34,7 +36,7 @@ function coincidencias2(frase, busqueda) {
                 mapa[palabra] = 1;
             }
         }
-        resultado = mapa[busqueda_limpia]; // Use busqueda_limpia here
+        resultado = mapa[busqueda_limpia]; // Use busqueda_limpia
     }
 
     return resultado;

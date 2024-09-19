@@ -1,3 +1,5 @@
+/*Detectar si una palabra es un palindromo */
+
 //////////////////Mi funcion////////////////////
 function polindromo(texto){
     let textoNormal= texto.toLowerCase();

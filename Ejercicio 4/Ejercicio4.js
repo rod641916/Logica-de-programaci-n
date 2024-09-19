@@ -1,6 +1,8 @@
+/*Invertir una cadena de texto*/
+
 //////Mi codigo//////
 
-/*function invertir(cadena){
+function invertir(cadena){
     let cadenaInvertida = "";
 
     for(let i=cadena.length - 1; i>=0; i--){
@@ -9,7 +11,7 @@
     return cadenaInvertida;
 }
 
-console.log(invertir("hola"));*/
+console.log(invertir("hola"));
 
 
 ///////Codigo curso////////

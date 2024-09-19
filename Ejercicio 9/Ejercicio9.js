@@ -1,3 +1,5 @@
+///Crear una nuevo array con los numeros que se repiten en 2 arrays
+
 function arrays(array1,array2){
 
     //Filtre crea un nuevo array nuevo con los elementos que cumplan una condición, inclues devuelve un verdadero o falso al comparar

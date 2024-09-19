@@ -1,11 +1,13 @@
+/*Calcular el porcentaje de un numero*/
+
 /////////////Mi codigo///////////////
-/*function porcentaje(porcentaje,numero){
+function porcentaje(porcentaje,numero){
     let operation= ((porcentaje*numero)/100)
 
     console.log(`El ${porcentaje}% de ${numero} es: ${operation}`);
 }
 
-porcentaje(50,800);*/
+porcentaje(50,800);
 
 
 ////////////////codigo curso///////////
