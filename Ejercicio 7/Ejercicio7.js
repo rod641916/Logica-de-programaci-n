@@ -13,8 +13,8 @@ function impares(num1,num2){ //Función con 2 parametros
     return contador; // me regresa el contador
 }
 
-console.log("La cantidad de numeros impares es:",impares(1,10)) //se pasan los valores y se imprime
-
+//console.log("La cantidad de numeros impares es:",impares(1,10)) //se pasan los valores y se imprime
+module.exports=impares;
 
 
 ////Codigo curso////
