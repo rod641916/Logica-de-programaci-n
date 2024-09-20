@@ -3,6 +3,9 @@
 /////////////Mi codigo///////////////
 
 function cuadrado(cantidad) {
+
+    let resultado = [];
+
     for (let i = 0; i < cantidad; i++) {
         let linea = ""; // Reiniciamos la línea para cada fila
 
@@ -15,15 +18,16 @@ function cuadrado(cantidad) {
             }
         }
 
-        console.log(linea); // Imprimimos la línea completa
+        resultado.push(linea); // Imprimimos la línea completa
     }
+    return resultado;
 }
 
-cuadrado(5);
+module.exports = cuadrado;
 
 
 //////////Codigo curso////////////////
-function lado(numero) {   //////////esta función pinta la linea de arriba y de abajo
+/*function lado(numero) {   //////////esta función pinta la linea de arriba y de abajo
     let lado = "";
 
     for (let i = 0; i < numero; i++) {
@@ -48,4 +52,4 @@ function cuadrado1(numero) {
     return dibujo;
 }
 
-console.log(cuadrado1(10))
+console.log(cuadrado1(10))*/

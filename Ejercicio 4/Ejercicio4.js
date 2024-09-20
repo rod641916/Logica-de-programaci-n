@@ -10,13 +10,13 @@ function invertir(cadena){
     }
     return cadenaInvertida;
 }
-
-console.log(invertir("hola"));
+module.exports = invertir;
+//console.log(invertir("hola"));
 
 
 ///////Codigo curso////////
 
-function invertir2(texto){
+/*function invertir2(texto){
     let invertido="";
 
     for(let letra of texto){
@@ -25,4 +25,4 @@ function invertir2(texto){
     return invertido;
 }
 
-console.log("Texto invertido:"+ invertir2("Rodrigo"));
+console.log("Texto invertido:"+ invertir2("Rodrigo"));*/
