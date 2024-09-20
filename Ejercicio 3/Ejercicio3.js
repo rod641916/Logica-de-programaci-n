@@ -2,7 +2,7 @@
 
 //////////////////Mi funcion////////////////////
 function coincidencias(frase,busqueda){  ///Va a recibir 2 parametros
-    let fraseCompleta = frase.toString().toLowerCase().replace(/[,!?¿]/g, "").split(" "); //
+    let fraseCompleta = frase.toString().toLowerCase().replace(/[!?¿]/g, "").split(/[\s,]+/);
     let palabraBusqueda = busqueda.toLowerCase();
     let count=0;
     for(let i=0; i<fraseCompleta.length; i++){
@@ -13,9 +13,9 @@ function coincidencias(frase,busqueda){  ///Va a recibir 2 parametros
     return count;
 }
 
-console.log(coincidencias("La vida es bella","bella"));
+//console.log(coincidencias("La vida es bella","bella"));
 
-
+module.exports = coincidencias;
 
 ////////////////////////Función curso///////////////
 
