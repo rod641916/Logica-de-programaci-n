@@ -7,6 +7,16 @@ function repetir(palabra,cantidad){
     }
     return cadena;
 }
-console.log(repetir ("Hola",15));
-
+//console.log(repetir ("Hola",15));
 module.exports = repetir;
+
+function repiteme(texto, numero_repeticiones){
+    let resultado ="";
+
+    for(let i=0; i<numero_repeticiones; i++){
+        resultado += texto;
+    }
+    return resultado;
+}
+
+console.log(repiteme("Perro", 2))
